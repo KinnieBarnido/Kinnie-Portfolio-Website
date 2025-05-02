@@ -73,6 +73,31 @@ nav {
     line-height: 1;
 }
 
+.navigationBar {
+    width: 60%;
+    height: 50px;
+    border: black solid 1px;
+    border-radius: 10px;
+    position: fixed;
+    top: 10px;
+    left: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .navigationBar a {
+     margin: 1rem;
+     text-decoration: none;
+     color: black;
+ }
+ 
+ .navigationBar a:active {
+     color: #00A3FF;
+ }
+
 h1 {
     font-weight: 900;
     font-size: 77px;
